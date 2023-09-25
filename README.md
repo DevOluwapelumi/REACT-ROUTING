@@ -17,3 +17,8 @@ Link: The Link component provides a declarative way to navigate between differen
 <Link to="/about">About</Link>
 
 Switch: The Switch component is used to render only the first Route that matches the current URL. This helps prevent multiple components from rendering simultaneously when multiple routes match.
+<Switch>
+  <Route path="/home" component={Home} />
+  <Route path="/about" component={About} />
+  <Route path="/contact" component={Contact} />
+</Switch>
