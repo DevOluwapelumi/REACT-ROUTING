@@ -13,3 +13,5 @@ Route: The Route component is at the core of React Routing. It allows you to def
 <Route path="/about" component={About} />
 
 Link: The Link component provides a declarative way to navigate between different routes. Instead of traditional anchor (<a>) tags, you use Link to prevent full page reloads, ensuring a seamless and faster user experience.
+<Link to="/home">Home</Link>
+<Link to="/about">About</Link>
