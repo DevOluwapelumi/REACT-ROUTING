@@ -8,3 +8,6 @@ Here are some key components and concepts associated with React Routing:
 
 BrowserRouter and HashRouter: React Router offers two primary routing components - BrowserRouter and HashRouter. BrowserRouter uses the HTML5 History API to create clean, user-friendly URLs, while HashRouter uses the URL hash to manage routing. The choice between them depends on your server configuration and URL structure.
 Route: The Route component is at the core of React Routing. It allows you to define specific routes and their corresponding components. When the URL matches the defined route path, the associated component is rendered. For example:
+<Route path="/home" component={Home} />
+<Route path="/about" component={About} />
+
